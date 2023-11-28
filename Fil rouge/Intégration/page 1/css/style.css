@@ -1,0 +1,275 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box ;
+    list-style: none;
+    font-family: "Permanent Marker";
+}
+
+/* logo */
+.w-70px{
+    width: 70px;
+    margin-left: 10px;
+}
+.h-70px{
+    height: 70px;
+ }
+
+/* header div parent */
+.d-flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: space-between;
+    align-items: center;
+}
+.b-color{
+    background-color: orange;
+}
+.h-90{
+    height: 80px;
+}
+.w-100{
+    width: 100%;
+}
+.p-relative{
+    position: relative;
+}
+
+/* input et logo search */
+.fa-magnifying-glass{
+    position: absolute;
+    right: 41%;
+}
+.b-radius{
+    border-radius: 20px;
+} 
+.w-20{
+    width: 20%;
+}
+.h-30px{
+    height: 30px;
+}
+input{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);  
+}
+
+/* nav */
+.m-right55{
+    margin-right: 55%;
+}
+/* liste */
+li a{
+    text-decoration: none;
+    color:black;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-size: 25px;     
+}
+.hover:hover{
+    color: rgb(99, 99, 210); 
+}
+
+/* ul */
+/* menu deroulant  li a
+.p-absolute{
+    position: absolute; 
+}
+
+liste non visible 
+.hidden{
+    visibility: hidden;  
+    background-color: orange;
+}
+ liste visible :hover */
+
+
+
+/* USER SHOP */
+
+/* la div */
+.p-10px{
+   padding: 10px;
+}
+.m-right5px{
+    margin-right: 5px;
+}
+/* les deux elements espacés shop et user */
+.p-25px{
+    padding: 15px;
+}
+.text{
+    font-size: 25px;
+}
+.decoration a{
+    text-decoration: none; 
+    color: black;   
+}
+.hover:hover{
+    color: rgb(99, 99, 210); 
+}
+/* user format texte */
+.user{
+    color: rgb(99, 99, 210);
+    font-size: 200%;
+    text-align: center;
+ }
+ .hoverb:hover{
+    color: black;
+ }
+
+ /* titre */
+ .titre{
+    width: 100%;
+   
+ }
+ .titrenaruto{
+    padding : 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+ }
+
+.banniere{
+    width: 100%;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bannierecentrale{
+    width: 50%;
+    padding-left: 20px;  
+    height: 160px; 
+    padding-right:20px ;
+}
+
+.lorem{
+    width:100%;
+   
+}
+
+.text2{
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+    margin-top: 30px;
+     margin-bottom: 0;
+}
+
+.personnages{
+width:30%;
+margin:20px;
+margin-left: 35%;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+background-color: rgb(204, 200, 200);
+
+}
+.persoimg{
+ text-align: center;
+ font-size: large;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Carrousel horizontal */
+.slider-containerparent{
+width: 30%;
+height: 30%;
+margin: auto;
+margin-bottom:55px ;
+border: 5px solid rgb(230, 169, 56);
+overflow: hidden;
+border-radius: 20px;
+
+}
+.sliderenfant{
+    display:flex;
+    width:70%;
+    animation: sliderenfant 12s infinite ease-in-out;
+}
+.caroussel img{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-shrink: 0;
+    margin: 50%;
+}
+
+/* mettre 5% par transition (pourcentage non conventionnel)
+j'ai 4images donc pause entra chaque slide : 80% DIVISE PAR 4= 20% */
+@keyframes sliderenfant {
+ 0%,
+ 20% {
+    transform: translateX(0);
+ }
+ 25%,
+ 45% {
+    transform: translateX(-100%);
+ }
+ 50%,
+ 70% {
+    transform: translateX(-200%);
+ }
+ 75%,
+ 95% {
+    transform: translateX(-300%);
+ }
+ 100% {
+    transform: translateX(0);
+
+ }
+    
+}
+
+.footer{
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    margin: auto;
+  
+   
+}
+
+.condtions{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.conditionstexte{
+    justify-content: center;
+   align-items: center;
+}
